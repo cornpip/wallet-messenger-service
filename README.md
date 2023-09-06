@@ -3,13 +3,11 @@
 
 
 ## 기획/설계
+[__ERD__](https://drive.google.com/file/d/1nBDsU-hqtFnShWmwQIzq7DGtEUvM4OBp/view?usp=sharing)
+
 [__API__](https://github.com/innovationCamp/swagger/blob/master/swagger.yaml)
 
-[__ERD__](https://drive.google.com/file/d/1tyw0lz4LS69rVJofofqzTM7UFXcJphMI/view?usp=sharing)
-
-[__User Flow Chart__](https://www.figma.com/file/8ZfGH2pZ8q3Eft5VJIsjP2/%EC%9D%B4%EB%85%B8%EC%BA%A0%EC%B5%9C%EC%A2%85?type=whiteboard&node-id=0%3A1&t=hyIOBTylmqQslWvc-1)  
-
-[__Wire Frame__](https://www.figma.com/file/j4b8RsE6lLowoqLKzphLuK/%EB%A9%94%EC%8B%A0%EC%A0%80-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84?type=design&node-id=0%3A1&mode=design&t=pDWQ5AnMDMFjdghp-1)
+[__Wire Frame__](https://www.figma.com/file/vAopCC9aoIwLBkEUXbYimA/Wallet-Messenger-Service-WireFrame?type=design&mode=design&t=2ix1w3yDTcntv2pB-1)
 
 ## 클라이언트
 [__Messenger-Service-Log__](https://github.com/cornpip/messenger-service-log)
