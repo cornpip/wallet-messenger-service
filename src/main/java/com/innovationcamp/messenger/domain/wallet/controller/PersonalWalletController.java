@@ -4,6 +4,7 @@ import com.innovationcamp.messenger.domain.user.entity.User;
 import com.innovationcamp.messenger.domain.wallet.dto.*;
 import com.innovationcamp.messenger.domain.wallet.service.PersonalWalletService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -39,6 +40,7 @@ public class PersonalWalletController {
     }
 
     @GetMapping("/group/all")
+    @Operation(summary = "내가 속한 모든 group-wallet 조회")
     public List<GroupWalletResponseDto> getAllGroupWalletByUser(@RequestAttribute User user) {
         return walletPersonalService.getAllGroupWalletByUser(user);
     }

@@ -3,6 +3,7 @@ package com.innovationcamp.messenger.domain.wallet.controller;
 import com.innovationcamp.messenger.domain.user.entity.User;
 import com.innovationcamp.messenger.domain.wallet.dto.*;
 import com.innovationcamp.messenger.domain.wallet.service.GroupWalletService;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -45,11 +46,13 @@ public class GroupWalletController {
     }
 
     @GetMapping("/{groupWalletId}/participant/all")
+    @Operation(summary = "해당 group wallet 의 모든 참여자 조회")
     public List<WalletUserResponseDto> getAllParticipantByGroupWallet(@PathVariable Long groupWalletId) {
         return groupWalletService.getAllParticipantByGroupWallet(groupWalletId);
     }
 
     @GetMapping("/all/channel/{channelId}")
+    @Operation(summary = "해당 채널의 모든 group wallet 조회")
     public List<GroupWalletResponseDto> getAllGroupWalletByChannelId(@RequestAttribute User user,
                                                                      @PathVariable Long channelId){
         return groupWalletService.getAllGroupWalletByChannelId(user, channelId);
