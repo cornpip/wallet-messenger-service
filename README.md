@@ -14,12 +14,14 @@
 ## 클라이언트
 [__Messenger-Service-Log__](https://github.com/cornpip/messenger-service-log)
 
-## Message WebSocket Server 분리
-
-[__Message WebSocket Server__](https://github.com/cornpip/message_kafka)
-
 ## Message Architecture
 [__Message Architecture__](https://github.com/cornpip/message_architecture)
+
+## Message WebSocket Server
+[__Message WebSocket Server__](https://github.com/cornpip/message_kafka)
+
+## Message DB Consumer
+[__Message DB Consumer__](https://github.com/cornpip/message_consumer)
 
 ## 기능
 + user
